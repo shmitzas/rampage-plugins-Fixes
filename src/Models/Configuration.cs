@@ -1,6 +1,6 @@
-namespace Fixes;
+namespace Fixes.Models;
 
-public class FixesConfig
+public class Configuration
 {
     public bool EnableSteamBanFix { get; set; } = true;
     public bool EnableInputActivatorCrashFix { get; set; } = true;
@@ -13,4 +13,5 @@ public class FixesConfig
     public bool EnableRampFix { get; set; } = false;
     public bool EnablePlayerGhostFix { get; set; } = true;
     public bool EnableCompetitiveCooldownFix { get; set; } = false;
+    public bool EnableCstvBotQuotaFix { get; set; } = false;
 }
